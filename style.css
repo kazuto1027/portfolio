@@ -219,8 +219,8 @@ header {
 }
 
 .work-image2 img {
-  width: 400px;
-  height: 200px;
+  width: 380px;
+  height: 180px;
   max-width: 100%;
 }
 
@@ -263,8 +263,8 @@ header {
 }
 
 .movie video {
-  height: 350px;
-  width: 350px;
+  width: 380px;
+  height: 180px;
   max-width: 100%;
 }
 

@@ -366,7 +366,7 @@ display: -webkit-box;
 }
 
 .contact-wrapper__list h2,
-.contact-wrapper__list address
+.contact-wrapper__list address {
 padding: 20px 0;
 }
 

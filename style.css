@@ -446,6 +446,9 @@ dd {
         max-width: 100%;
         text-align: center;
         padding-left: 20%;
+        overflow-x: hidden!important;
+ overflow-y: scroll;
+ -webkit-overflow-scrolling: touch;
     }
 }
 

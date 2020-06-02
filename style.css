@@ -219,8 +219,8 @@ header {
 }
 
 .work-image2 img {
-  width: 380px;
-  height: 180px;
+  width: 400px;
+  height: 200px;
   max-width: 100%;
 }
 
@@ -264,8 +264,8 @@ header {
 }
 
 .movie video {
-  width: 380px;
-  height: 180px;
+  height: 350px;
+  width: 350px;
   max-width: 100%;
 }
 
@@ -378,15 +378,14 @@ dd {
 }
 
 /*追加CSS*/
+.work-imagelayout {
+  width: 40%;
+  text-align: center;
+}
 
-                        .work-imagelayout {
-                            width: 40%;
-                            text-align: center;
-                        }
-
-                        .work-contents__icon {
-                            width: 60%;
-                        }
+.work-contents__icon {
+  width: 60%;
+}
 
 /*　ここからスマートフォン向けレスポンシブ用のCSS */
 @media screen and (min-width: 300px) and (max-width: 800px) {
@@ -464,16 +463,14 @@ dd {
     text-align: center;
     padding-left: 20%;
   }
-  
-  //追加CSS//
   .work-imagelayout {
-   width: 100%;
-   max-width: 100%;
-   text-align: center;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
   }
   .work-contents__icon {
-  width: 100%;
-  text-align: left;
-   }
+    width: 100%;
+    text-align: left;
+  }
 }
 /*# sourceMappingURL=style.css.map */

@@ -254,12 +254,13 @@ header {
 .work-contents__icon h2 {
   color: white;
   vertical-align: middle;
-  font-size: 2.2em;
-  padding-bottom: 50px;
+  font-size: 1.8em;
+  padding-bottom: 30px;
 }
 
 .work-contents__icon p {
-  font-size: 1.5em;
+  font-size: 1.2em;
+  padding: 20px 0;
 }
 
 .movie video {
@@ -465,14 +466,14 @@ dd {
   }
   
   //追加CSS//
-                            .work-imagelayout {
-                                width: 100%;
-                                max-width: 100%;
-                                text-align: center;
-                            }
-                            .work-contents__icon {
-                                width: 100%;
-                                text-align: left;
-                            }
+  .work-imagelayout {
+   width: 100%;
+   max-width: 100%;
+   text-align: center;
+  }
+  .work-contents__icon {
+  width: 100%;
+  text-align: left;
+   }
 }
 /*# sourceMappingURL=style.css.map */

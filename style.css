@@ -376,6 +376,17 @@ dd {
   padding: 20px 0;
 }
 
+/*追加CSS*/
+
+                        .work-imagelayout {
+                            width: 40%;
+                            text-align: center;
+                        }
+
+                        .work-contents__icon {
+                            width: 60%;
+                        }
+
 /*　ここからスマートフォン向けレスポンシブ用のCSS */
 @media screen and (min-width: 300px) and (max-width: 800px) {
   .container {
@@ -452,5 +463,16 @@ dd {
     text-align: center;
     padding-left: 20%;
   }
+  
+  //追加CSS//
+                            .work-imagelayout {
+                                width: 100%;
+                                max-width: 100%;
+                                text-align: center;
+                            }
+                            .work-contents__icon {
+                                width: 100%;
+                                text-align: left;
+                            }
 }
 /*# sourceMappingURL=style.css.map */

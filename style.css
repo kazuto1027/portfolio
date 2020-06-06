@@ -172,29 +172,30 @@ header {
 }
 
 .columns1 {
-  width: 700px;
+  width: 50%;
   padding-top: 200px;
-  padding-left: 10%;
+  text-align: center;
 }
 
 .colums2 {
-  width: 800px;
+  width: 50%;
 }
 
 .columns1 img {
   width: 200px;
-  height: 200px;
 }
 
 .columns1 p {
-  position: absolute;
-  top: 500px;
+  padding-top: 50px;
+}
+
+.columns2 p {
+  line-height: 60px;
 }
 
 .introduction img {
   width: 50px;
   height: 50px;
-  max-width: 100%;
   max-width: 100%;
 }
 
@@ -459,9 +460,6 @@ dd {
   .work-contents__intro1 {
     padding-top: 150px;
   }
-  .work-contents__list h2 {
-    text-align: left;
-  }
   .contact-wrapper__list {
     width: 100%;
     max-width: 100%;
@@ -475,6 +473,7 @@ dd {
   }
   .work-contents__icon {
     width: 100%;
+    max-width: 100%;
     text-align: left;
   }
 }

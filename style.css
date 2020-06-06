@@ -261,6 +261,11 @@ header {
 .work-contents__icon p {
   font-size: 1.2em;
   padding: 20px 0;
+  color: white;
+}
+
+.work-contents__icon a {
+  color: white;
 }
 
 .movie video {
@@ -386,9 +391,6 @@ dd {
 .work-contents__icon {
   width: 60%;
 }
-
-.work-contents__icon　a {
-  color: white;
 
 /*　ここからスマートフォン向けレスポンシブ用のCSS */
 @media screen and (min-width: 300px) and (max-width: 800px) {

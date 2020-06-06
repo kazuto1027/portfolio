@@ -173,8 +173,8 @@ header {
 
 .columns1 {
   width: 50%;
-  padding-top: 200px;
   text-align: center;
+  padding: 200px 100px 0 100px;
 }
 
 .colums2 {
@@ -439,14 +439,14 @@ dd {
     height: 400px;
     width: 100%;
   }
-  .columns1,
   .columns2 {
     max-width: 100%;
+    width: 100%;
   }
   .columns1 {
-    margin: 0 Auto;
-    width: 50%;
-    padding-top: 200px;
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
   }
   .work-contents__list {
     -webkit-box-orient: vertical;

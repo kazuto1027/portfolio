@@ -231,6 +231,12 @@ header {
   max-width: 100%;
 }
 
+.work-image4 img {
+  width: 400px;
+  height: 200px;
+  max-width: 100%;
+}
+
 .work-contents__list {
   display: -webkit-box;
   display: -ms-flexbox;

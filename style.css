@@ -291,56 +291,11 @@ dt {
   text-align: center;
 }
 
-.contact-wrapper {
-  margin: 200px 0;
-  color: white;
-  display: inline-block;
-}
-
-.contact-wrapper div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-bottom: 50px;
-}
-
-.contact-wrapper dl {
-  position: relative;
-  left: 400px;
-  opacity: 0.7;
-  border-radius: 50px;
-}
-
-.contact-wrapper textarea {
-  height: 50px;
-  width: 500px;
-}
-
-.contact-wrapper dt {
-  line-height: 50px;
-}
-
-.contact-wrapper h1 {
-  text-align: center;
-  margin-bottom: 50px;
-}
-
 form,
 dl,
 dt,
 dd {
   margin: 0;
-}
-
-.contact-submit {
-  width: 100px;
-  position: relative;
-  left: 300px;
-}
-
-.contact-box {
-  height: 50px;
-  width: 500px;
 }
 
 .homebtn {
@@ -375,18 +330,31 @@ dd {
 }
 
 .contact-wrapper__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  padding-top: 200px;
+  display: block;
+  text-align: center;
 }
 
-.contact-wrapper__list h2,
+.contact-wrapper__list h2 {
+  padding-bottom: 30px;
+}
+
 .contact-wrapper__list address {
-  padding: 20px 0;
+  padding-bottom: 30px;
+}
+
+.contact-wrapper__list p {
+  padding-bottom: 30px;
+}
+
+.contact-wrapper__list a {
+  text-decoration: none;
+  color: white;
+}
+
+.contact-wrapper__list img {
+  width: 50px;
+  height: 50px;
 }
 
 /*追加CSS*/
@@ -471,7 +439,6 @@ dd {
     width: 100%;
     max-width: 100%;
     text-align: center;
-    padding-left: 20%;
   }
   .work-imagelayout {
     width: 100%;
